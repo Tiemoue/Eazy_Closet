@@ -2,7 +2,7 @@ Project Milestone - README Example
 ===
 
 
-# Collins
+# Easy Closet
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,7 +11,7 @@ Project Milestone - README Example
 
 ## Overview
 ### Description
-A closet App that recommeds items to wear to the user based on the weather in the users location
+A closet App that recommeds clothing items to wear based on the weather in the users location
 
 ### App Evaluation
 - **Category:** lifestyle / health
@@ -30,14 +30,14 @@ A closet App that recommeds items to wear to the user based on the weather in th
 * Register screen
 * Home page which shows users recommedation based on the weather
 * Closet page to add and remove items
-* profile page to set push notifications
+* profile page to set push notifications and temperature units
 
 **Optional Nice-to-have Stories**
 
 * add items via photo
 * update user on least frequently worn clothes and suggest donations
 * One click Share "outfit of the day" to social accounts
-* represent suggestions with bitmoji
+
 
 ### 2. Screen Archetypes
 
