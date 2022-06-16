@@ -115,10 +115,10 @@ Optional:
     `GET`    | /windSpeed| return specific character by name
     `GET`    | /main   | get the weather
     `GET`    | /icon | return weather icon
-     `GET`    | /description   | get the weather description
+     `GET`   | /description   | get the weather description
     `GET`    | /humidity | return the humidity
-     `GET`    | /feels_like | return what the weather feels like 
-      `GET`    | /speed | return the wind speed
+     `GET`   | /feels_like | return what the weather feels like 
+     `GET`   | /speed | return the wind speed
     
 ##### unsplash API
 - Base URL - [https://source.unsplash.com/1600x900/?+{city}"]
