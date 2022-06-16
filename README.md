@@ -72,3 +72,57 @@ Optional:
 ## Wireframes
 ![](https://i.imgur.com/Xia9bQB.jpg)
 
+
+## Schema 
+### Models
+
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | Username      | String   | the users username for easy sign in |
+   | Password      | String   | the users password |
+   | image         | File     | image for user profile image |
+   | gender        | String   | the users gender |
+   | Zip code      | Number   | the users zip code to get location |
+   | Email         | String   | the users email for registration |
+   | createdAt     | DateTime | date the account is created (default field) |
+   | updatedAt     | DateTime | date the account was last updated (default field) |
+   
+   
+   #### Items
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user item (default field) |
+   | name          | String   | the name of the item |
+   | image         | File     | image for the clothing |
+   | User          | Pointer   | the owner of the item |
+   | Color         | String   | the colorof that item |
+   | createdAt     | DateTime | date the item is created (default field) |
+   | updatedAt     | DateTime | date the item was last updated (default field) |
+### Networking
+#### List of network requests by screen
+
+#### [OPTIONAL:] Existing API Endpoints
+##### OpenWeatherApi
+- Base URL - [https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /pressure | get current weather for that location
+    `GET`    | /windSpeed| return specific character by name
+    `GET`    | /main   | get the weather
+    `GET`    | /icon | return weather icon
+     `GET`    | /description   | get the weather description
+    `GET`    | /humidity | return the humidity
+     `GET`    | /feels_like | return what the weather feels like 
+      `GET`    | /speed | return the wind speed
+    
+##### unsplash API
+- Base URL - [https://source.unsplash.com/1600x900/?"]
+- https://unsplash.com/documentation
+- use this api to display images of landmark from the users location
+
+
