@@ -121,7 +121,7 @@ Optional:
       `GET`    | /speed | return the wind speed
     
 ##### unsplash API
-- Base URL - [https://source.unsplash.com/1600x900/?"]
+- Base URL - [https://source.unsplash.com/1600x900/?+{city}"]
 - https://unsplash.com/documentation
 - use this api to display images of landmark from the users location
 
