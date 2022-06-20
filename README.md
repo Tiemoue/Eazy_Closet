@@ -2,7 +2,7 @@ Project Milestone - README Example
 ===
 
 
-# Easy Closet
+# Eazy Closet
 
 ## Table of Contents
 1. [Overview](#Overview)
